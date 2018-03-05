@@ -20,6 +20,18 @@ div {
   font-size: 2em;
 }
 
+
+.images {
+  width: 20%;
+  position: absolute;
+}
+
+/* #image1 {
+  display: block;
+} */
+#image2 {
+  display: none;
+}
 * {
     box-sizing: border-box;
 }
