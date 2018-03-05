@@ -1,7 +1,3 @@
-div {
-  background: yellow;
-}
-
 /*
 This is a good layout for a mobile-first CSS template.
 Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
@@ -17,6 +13,12 @@ You will find this is far easier than the opposite task of using CSS to cram you
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 
 /* Start your base/mobile styles here */
+div {
+  background: yellow;
+  width: 50%;
+  margin: auto;
+  font-size: 2em;
+}
 
 * {
     box-sizing: border-box;
@@ -24,6 +26,7 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    background: red;
     font-size: 16px;
 }
 
